@@ -3,51 +3,12 @@
 	"description": "Greenpeace P4 test-neptune",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme": "7",
-		"greenpeace/planet4-plugin-gutenberg-blocks": "7"
+		"greenpeace/planet4-master-theme": "dev-cookies-copy-in-settings",
+		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-cookies-copy-in-settings"
 	},
 	"data_from": "international",
 	"scripts": {
 		"site:custom": []
 	},
-	"repositories": [
-		{
-			"type": "package",
-			"package": {
-				"name": "greenpeace/planet4-master-theme",
-				"type": "wordpress-theme",
-				"autoload": {
-					"psr-4": {
-						"P4\\MasterTheme\\": "src/"
-					}
-				},
-				"extra": {
-					"installer-paths": {
-						"vendor/plugins/{$name}/": [
-							"type:wordpress-plugin"
-						]
-					}
-				},
-				"version": 7,
-				"dist": {
-					"type": "zip",
-					"url": "https://storage.googleapis.com/planet4-packages/planet4-master-theme/99245c3b3ff01fa568b3f0a348c7c791f455746a.zip"
-				}
-			}
-		},
-		{
-			"type": "package",
-			"package": {
-				"name": "greenpeace/planet4-plugin-gutenberg-blocks",
-				"type": "wordpress-plugin",
-				"autoload": null,
-				"extra": null,
-				"version": 7,
-				"dist": {
-					"type": "zip",
-					"url": "https://storage.googleapis.com/planet4-packages/planet4-plugin-gutenberg-blocks/08ba62ad2c6d020ec394381cca1e7bea82140a55.zip"
-				}
-			}
-		}
-	]
+	"repositories": []
 }
