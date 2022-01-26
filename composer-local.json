@@ -3,7 +3,7 @@
 	"description": "Greenpeace P4 test-neptune",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme": "dev-cookies-copy-in-settings",
+		"greenpeace/planet4-master-theme": "7",
 		"greenpeace/planet4-plugin-gutenberg-blocks": "7"
 	},
 	"data_from": "international",
@@ -22,6 +22,30 @@
 				"dist": {
 					"type": "zip",
 					"url": "https://storage.googleapis.com/planet4-packages/planet4-plugin-gutenberg-blocks/69aa33513a3e44fee310cc15bddaaca51bd55cba.zip"
+				}
+			}
+		},
+		{
+			"type": "package",
+			"package": {
+				"name": "greenpeace/planet4-master-theme",
+				"type": "wordpress-theme",
+				"autoload": {
+					"psr-4": {
+						"P4\\MasterTheme\\": "src/"
+					}
+				},
+				"extra": {
+					"installer-paths": {
+						"vendor/plugins/{$name}/": [
+							"type:wordpress-plugin"
+						]
+					}
+				},
+				"version": 7,
+				"dist": {
+					"type": "zip",
+					"url": "https://storage.googleapis.com/planet4-packages/planet4-master-theme/5e3930fc9179a525e93d7bb660713474cd8a9624.zip"
 				}
 			}
 		}
