@@ -3,7 +3,7 @@
 	"description": "Greenpeace P4 test-neptune",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme": "dev-master",
+		"greenpeace/planet4-master-theme": "dev-remove-secondary-buttons-ellipsis-6664",
 		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-master"
 	},
 	"data_from": "international",
