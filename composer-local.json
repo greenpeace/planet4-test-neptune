@@ -3,27 +3,11 @@
 	"description": "Greenpeace P4 test-neptune",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme": "dev-modify-quotes-of-burger-menu-i18n-strings",
-		"greenpeace/planet4-plugin-gutenberg-blocks": "7"
+		"greenpeace/planet4-master-theme": "dev-new-pattern-placeholders",
+		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-PLANET-6520_quick_link_block_pattern"
 	},
 	"data_from": "international",
 	"scripts": {
 		"site:custom": []
-	},
-	"repositories": [
-		{
-			"type": "package",
-			"package": {
-				"name": "greenpeace/planet4-plugin-gutenberg-blocks",
-				"type": "wordpress-plugin",
-				"autoload": null,
-				"extra": null,
-				"version": 7,
-				"dist": {
-					"type": "zip",
-					"url": "https://storage.googleapis.com/planet4-packages/planet4-plugin-gutenberg-blocks/0fe0870381ba7371551c14d6f958244ccd63e072.zip"
-				}
-			}
-		}
-	]
+	}
 }
