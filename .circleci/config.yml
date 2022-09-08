@@ -33,6 +33,7 @@ job_environments:
     HELM_RELEASE: planet4-test-neptune
     WP_DB_NAME: planet4-testnept_wordpress_develop
     WP_STATELESS_BUCKET: planet4-test-neptune-stateless-develop
+    CHART_VERSION: 0.8.30
 
 
 commands:
