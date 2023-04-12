@@ -9,21 +9,5 @@
 	"data_from": "international",
 	"scripts": {
 		"site:custom": []
-	},
-	"repositories": [
-		{
-			"type": "package",
-			"package": {
-				"name": "greenpeace/planet4-plugin-gutenberg-blocks",
-				"type": "wordpress-plugin",
-				"autoload": null,
-				"extra": null,
-				"version": 7,
-				"dist": {
-					"type": "zip",
-					"url": "https://storage.googleapis.com/planet4-packages/planet4-plugin-gutenberg-blocks/abb0a01249ea73694c12b81a413c9ec3e40ae9c4.zip"
-				}
-			}
-		}
-	]
+	}
 }
