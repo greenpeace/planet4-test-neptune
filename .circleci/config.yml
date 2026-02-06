@@ -38,7 +38,6 @@ job_environments:
     APP_HOSTPATH: test-neptune
     CONTAINER_PREFIX: planet4-test-neptune
     WP_DB_NAME_PREFIX: planet4-testnept_wordpress
-    PARENT_VERSION: php8.3
   develop_environment: &develop_environment
     APP_ENVIRONMENT: development
     APP_HOSTNAME: www-dev.greenpeace.org
